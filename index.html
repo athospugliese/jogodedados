@@ -1,0 +1,57 @@
+<!-- Athos Matheus Pugliese da Silva - Sistemas para Internet • UNICAP -->
+<!-- Programação Web II -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <title>Jogo de Dado!</title>
+  </head>
+
+  <body>
+    <div class="wrapper clearfix">
+      <div class="jogador-0-panel active">
+        <div class="jogador-name" id="name-0">Jogador 1</div>
+        <div class="jogador-score" id="score-0">43</div>
+        <div class="jogador-pontuacao-box">
+          <div class="jogador-pontuacao-label">PONTUAÇÃO</div>
+          <div class="jogador-pontuacao-score" id="pontuacao-0">11</div>
+        </div>
+      </div>
+
+      <div class="jogador-1-panel">
+        <div class="jogador-name" id="name-1">Jogador 2</div>
+        <div class="jogador-score" id="score-1">72</div>
+        <div class="jogador-pontuacao-box">
+          <div class="jogador-pontuacao-label">pontuacao</div>
+          <div class="jogador-pontuacao-score" id="pontuacao-1">0</div>
+        </div>
+      </div>
+
+      <button class="btn-new">
+        <i class="ion-ios-plus-outline"></i>Nova partida
+      </button>
+      <button class="btn-roll"><i class="ion-ios-loop"></i>Role o dado!</button>
+      <button class="btn-hold">
+        <i class="ion-ios-download-outline"></i>Salvar
+      </button>
+
+      <img src="dice-5.png" alt="Dice" class="dice" />
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
